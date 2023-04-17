@@ -1,0 +1,4 @@
+.treemap-rect:hover {
+    stroke: var(--highlight-color);
+    stroke-width: 2px;
+}

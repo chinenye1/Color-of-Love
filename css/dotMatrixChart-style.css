@@ -1,0 +1,17 @@
+.matrix-dot {
+    stroke: var(--matrix-dot-outline);
+    stroke-width: 0.2px;    
+}
+.matrix-dot.inactive {
+    fill-opacity: 0.15;
+}
+.matrix-dot:hover {
+    stroke: var(--highlight-color);
+    stroke-width: 2px;
+}
+
+.matrix-dot.clicked {
+    stroke: var(--highlight-color);
+    stroke-width: 3px;
+}
+

@@ -1,0 +1,15 @@
+/* Axes */
+#heat-map-chart .axis path {
+    display: none;
+}
+
+/* Labels */
+#heat-map-chart .axis-label {
+    font-size: 14px;
+}
+
+/* Interactivity */
+.box:hover {
+    stroke: var(--highlight-color);
+    stroke-width: 2px;
+}

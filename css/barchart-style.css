@@ -1,0 +1,68 @@
+:root {
+  --interacial_color: rgb(223, 166, 9);
+  --same_race_color: rgb(199, 39, 106);
+  /* text */
+  --labels_font_size: 0.8em;
+}
+
+.bar-axis path,
+.bar-axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.bar-axis-title {
+  font-size: 13px;
+}
+
+.bar.yes {
+  fill: var(--interacial_color);
+}
+.bar.no {
+  fill: var(--same_race_color);
+}
+.bar.yes.active {
+  fill: var(--interacial_color);
+  stroke: var(--highlight-color);
+  stroke-width: 3px;
+}
+.bar.no.active {
+  fill: var(--same_race_color);
+  stroke: var(--highlight-color);
+  stroke-width: 3px;
+}
+
+.bar:hover {
+  stroke: var(--highlight-color);
+  stroke-width: 2px;
+}
+
+
+/* legend */
+#bar-chart-legend {
+  margin-left: 35px;
+}
+
+.barChart-legend-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#interracial {
+  background-color: var(--interacial_color);
+  margin-right: 4px;
+}
+
+#same_race {
+  background-color: var(--same_race_color);
+  margin-right: 4px;
+}
+
+.circles-label {
+  font-size: var(--labels_font_size);
+  margin-right: 2em;
+}
+
