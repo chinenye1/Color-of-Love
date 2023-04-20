@@ -1,8 +1,7 @@
 The Color of Love - CPSC 447 Project by: Guramrit Bamrah, Chinenye Oluka, Kamsiyochi Oramasionwu
 
-
-# D3 Project Starter Template
-# D3 Project Sources
+## Link to video demonstration: 
+<a target="_blank" href="https://l.messenger.com/l.php?u=https%3A%2F%2Fyoutu.be%2F3dg3KL-Fkkw&h=AT3q_O0OBSdHVfQ7le8_OE73JfmT0qiFz4_l5kfWLmTjW7ppeUGDIvqONIU2tWc9Zi8GngAJl-8qUSTRTNgWCAozP-V2h-UTWh170AlIOUF6HeO0hyQHaDziXkWL51J3yBLsu7nwDqHXBoKygV-rIw"> Watch on Youtube<a/> 
 
 ## Heatmap Sources:
 https://d3-graph-gallery.com/graph/heatmap_style.html
